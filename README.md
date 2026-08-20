@@ -125,3 +125,34 @@ git status
 ```
 
 A pasta `.venv/` não deve aparecer entre os arquivos preparados para commit porque está indicada no `.gitignore`.
+
+## Menu interativo de tarefas
+
+A atividade da Semana 03/04 foi implementada no arquivo `menu_tarefas.py`. O programa mantém um menu ativo até que a opção de encerramento seja escolhida.
+
+Para executar o menu no Windows, use o terminal dentro da pasta do projeto:
+
+```powershell
+python menu_tarefas.py
+```
+
+Se necessário, também é possível executar com:
+
+```powershell
+py menu_tarefas.py
+```
+
+O menu possui as seguintes opções:
+
+| Opção | Funcionamento |
+|---|---|
+| `1` | Cadastra uma tarefa com título, prioridade e situação inicial pendente. |
+| `2` | Lista as tarefas cadastradas usando uma repetição `for`. |
+| `3` | Atualiza uma tarefa existente para a situação concluída. |
+| `4` | Encerra o sistema. |
+
+O cadastro rejeita título vazio e prioridades diferentes de baixa, média ou alta. O programa também informa quando uma opção é inválida, quando não há tarefas cadastradas ou quando o número informado não corresponde a uma tarefa existente.
+
+### Limitação conhecida
+
+Os registros são mantidos somente em memória durante a execução. Portanto, as tarefas são perdidas quando o programa é encerrado. Nesta etapa ainda não foi utilizado banco de dados ou arquivo permanente.
