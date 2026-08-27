@@ -156,3 +156,15 @@ O cadastro rejeita título vazio e prioridades diferentes de baixa, média ou al
 ### Limitação conhecida
 
 Os registros são mantidos somente em memória durante a execução. Portanto, as tarefas são perdidas quando o programa é encerrado. Nesta etapa ainda não foi utilizado banco de dados ou arquivo permanente.
+
+### Participantes
+
+- Gabriel Leal da Silva
+- Brenno C�sar G. dos Santos
+
+
+### Participantes
+
+- Gabriel Leal da Silva
+- Brenno C�sar G. dos Santos
+
