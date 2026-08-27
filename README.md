@@ -1,4 +1,4 @@
-# Sistema Web de Gestão de Tarefas
+# Sistema Web de Gestão de Tarefa
 
 Projeto inicial do laboratório de programação back end. Nesta etapa, foi criada uma base reproduzível do projeto e um protótipo de cadastro de tarefa executado no terminal.
 
