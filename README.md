@@ -58,3 +58,8 @@ A página inicial apresenta o sistema e um link para a lista. A página `/tarefa
 ## Observação sobre persistência
 
 Os dados da view são recriados quando o processo Django é reiniciado, conforme o escopo da atividade. A configuração SQLite padrão do Django permanece apenas como configuração inicial do projeto e nenhum modelo ou migração de negócio foi criado.
+
+## Participantes
+
+- Brenno César G. dos Santos
+- Gabriel Leal da Silva
